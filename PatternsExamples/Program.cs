@@ -1,4 +1,7 @@
-﻿using System;
+﻿using PatternsExamples.Patterns.Behavioral;
+using PatternsExamples.Patterns.Creational;
+using PatternsExamples.Patterns.Structural;
+using System;
 
 namespace PatternsExamples
 {
@@ -6,7 +9,11 @@ namespace PatternsExamples
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            CreationalPatternsRunner.Run();
+            StructuralPatternsRunner.Run();
+            BehavioralPatternsRunner.Run();
+
+            Console.ReadKey();
         }
     }
 }
