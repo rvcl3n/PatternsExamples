@@ -6,9 +6,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Patterns\Creational\" />
-    <Folder Include="Patterns\Structural\" />
-    <Folder Include="Patterns\Runners\" />
+    <Compile Remove="Patterns\Creational\**" />
+    <Compile Remove="Patterns\Runners\**" />
+    <Compile Remove="Patterns\Structural\**" />
+    <EmbeddedResource Remove="Patterns\Creational\**" />
+    <EmbeddedResource Remove="Patterns\Runners\**" />
+    <EmbeddedResource Remove="Patterns\Structural\**" />
+    <None Remove="Patterns\Creational\**" />
+    <None Remove="Patterns\Runners\**" />
+    <None Remove="Patterns\Structural\**" />
   </ItemGroup>
 
   <ItemGroup>
